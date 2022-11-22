@@ -1,13 +1,15 @@
 # Discord.js v14 template
-Simple discord bot template with 4 example commands made to make it quicker to get started with making a bot.
+Simple discord.js bot template with 4 example commands.
+
+**In case you're lazy to initialize the whole project by yourself, just like me**
 
 
 
 ### Commands
-- ```alloptions.js (/options)``` has every option type initialized, and methods to parse eachother.
+- ```alloptions.js (/options <string> <number> <boolean> <user> <channel> <integer> <role> <mentionable> <attachment)``` has every option type initialized, and methods to parse eachother.
 - ```choices.js (/choices)``` is a template for command/s, having [choices](https://discordjs.guide/slash-commands/advanced-creation.html#choices) as one of it's options.
 - ```morebasic.js (/hello)``` is a simple command that makes the bot say "Hello there" once the command is executed, without any options.
-- ```subcommands.js (/say channel)``` is a example of command with [subcommands](https://discordjs.guide/slash-commands/advanced-creation.html#subcommands). Additionally, it has ```channel``` and ```text``` options, to make the bot send message in a channel, both specified by the executor.
+- ```subcommands.js (/say channel <channel> <text>)``` is a example of command with [subcommands](https://discordjs.guide/slash-commands/advanced-creation.html#subcommands). Additionally, it has ```channel``` and ```text``` options, to make the bot send message in a channel, both specified by the executor.
 
 # Getting started
 
