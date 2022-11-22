@@ -4,6 +4,7 @@ Simple discord.js bot template with 4 example commands.
 **In case you're lazy to initialize the whole project by yourself, just like me**.
 
 ## Table of contents:
+- [Changelog](https://github.com/sncelta/discordjs-v14-template/blob/main/changelog.md)
 - [Commands](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#commands)
 - [Getting started](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#getting-started)
 	- [Prerequisites](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#prerequisites)
