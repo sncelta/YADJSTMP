@@ -1,5 +1,9 @@
 # Discord.js v14 template
-Simple discord.js bot template with 4 example commands.
+Simple discord.js bot template:
+- 4 example commands;
+- Event handler;
+- Command handler;
+- [ESLint](https://eslint.org/)
 
 **In case you're lazy to initialize the whole project by yourself, just like me**.
 
