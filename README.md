@@ -12,6 +12,7 @@ Simple discord bot template with 4 example commands made to make it quicker to g
 # Get Started
 To use the template, you must install [Node.js](https://nodejs.org/en/download/), any code editor (example [Visual Studio Code](https://code.visualstudio.com/download))
 
+[Setup bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
 Install discord.js:
 
 ```npm install discord.js```
@@ -36,9 +37,9 @@ Alternatively, you can use [Git](https://git-scm.com/downloads):
 
 ```cd``` to the folder with source code (if the folder is not located on C disk, firstly type the drive letter (example. ```D:```), and then ```cd``` to the folder)
 
-Since .gitignore hides node_modules, you should install it by typing ```npm install``` in the terminal. **MAKE SURE YOU DID STEPS ABOVE**
+Since ```.gitignore``` hides ```node_modules```, you should install it by typing ```npm install``` in the terminal. **MAKE SURE YOU DID STEPS ABOVE**
 
-Create config.json file and put the following contents:
+Create ```config.json``` file and put the following contents:
 ```
 {
 	"token": "<bot token>",
