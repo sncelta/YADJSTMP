@@ -3,33 +3,34 @@ Simple discord bot template with 4 example commands made to make it quicker to g
 
 
 
-## Commands
+### Commands
 - ```alloptions.js (/options)``` has every option type initialized, and methods to parse eachother.
 - ```choices.js (/choices)``` is a template for command/s, having [choices](https://discordjs.guide/slash-commands/advanced-creation.html#choices) as one of it's options.
 - ```morebasic.js (/hello)``` is a simple command that makes the bot say "Hello there" once the command is executed, without any options.
 - ```subcommands.js (/say channel)``` is a example of command with [subcommands](https://discordjs.guide/slash-commands/advanced-creation.html#subcommands). Additionally, it has ```channel``` and ```text``` options, to make the bot send message in a channel, both specified by the executor.
 
-# Get Started
-To use the template, you must install [Node.js](https://nodejs.org/en/download/), any code editor (example [Visual Studio Code](https://code.visualstudio.com/download))
+# Getting started
 
-[Setup bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
-Install discord.js:
+## Prerequisites
+- [Node.js](https://nodejs.org/en/download/)
+- Code editor (like [Visual Studio Code](https://code.visualstudio.com/download))
+- discord.js — ```npm install discord.js```
+- Bot application in Discord — [Setup bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
+- Basic/intermediate experience and knowledge about JavaScript (resources to get started with JavaScript)[https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#learn-javascript]
+- [Git](https://git-scm.com/downloads) (optionally)
 
-```npm install discord.js```
-
-You also must have basic/intermediate experience and knowledge about JavaScript, depending on what bot you're going to make.
-
-Here are good resources to learn JavaScript:
+### Learn JavaScript:
 - [W3Schools](https://www.w3schools.com/js/)
 - [Javascript.Info](https://javascript.info/)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
 
-As for discord.js:
-- [discord.js guide](https://discordjs.guide/)
+### discord.js Guide
+- [discord.js Guide](https://discordjs.guide/)
 
 Though I left some comments in the code to explain some things, they may be inaccurate or hard to understand, so refer to the docs too.
 
-After you are sure you have done everything listed here, download the source code and extract it somewhere
+## Use
+After you are sure you have done everything listed here, download the source code and extract it somewhere.
 
 Alternatively, you can use [Git](https://git-scm.com/downloads):
 
@@ -48,6 +49,8 @@ Create ```config.json``` file and put the following contents:
 }
 ```
 
+## Using the bot
+
 After you are done, start the bot by typing:
 
 ```node init.js```
@@ -59,6 +62,33 @@ However, if you edited any command, you must deploy commands by typing:
 in the terminal
 
 ...and then you can start the bot.
+
+## Result
+
+Your directory will look like that:
+
+```commands/
+events/
+node_modules/
+eslintrc.json
+.gitignore
+config.json
+deploy-commands.js
+init.js
+package.json/
+package_lock.json/
+```
+
+If there are no errors, you'll see 
+
+```Ready! Logged in as <bot name>```
+
+after starting the bot, and
+
+```Started refreshing <amount of commands> application (/) commands.
+Successfully reloaded ${data.length} application (/) commands.```
+
+if the commands were deployed succesfully. But you still can get errors while executing the command, rather than while deploying them.
 
 # FAQ
 
