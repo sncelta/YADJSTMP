@@ -86,7 +86,8 @@ If there are no errors, you'll see
 after starting the bot, and
 
 ```Started refreshing <amount of commands> application (/) commands.
-Successfully reloaded ${data.length} application (/) commands.```
+Successfully reloaded ${data.length} application (/) commands.
+```
 
 if the commands were deployed succesfully. But you still can get errors while executing the command, rather than while deploying them.
 
