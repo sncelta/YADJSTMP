@@ -1,6 +1,11 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 
 // const wait = require('node:timers/promises').setTimeout;
+
+const botPerms = [
+	PermissionFlagsBits.SendMessages,
+	PermissionFlagsBits.ReadMessageHistory,
+];
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -39,19 +44,23 @@ module.exports = {
 			provide either the respective discord.js class instance if your application has a bot user in the guild or a raw API structure for commands-only deployment.
 			https://discordjs.guide/slash-commands/parsing-options.html#command-options
 		*/
-		const choice = interaction.options.getString('choice');
 
-		/*
-		Makes bot respond if the command was executed.
-		content : string = Contents of message to be sent as a response
-		ephemeral : boolean = Makes the response message visible only for the executor if set to true. Learn more:
+		if (interaction.guild.members.me.permissions.has(botPerms)) {
+			const choice = interaction.options.getString('choice');
+
+			/*
+			Makes bot respond if the command was executed.
+			content : string = Contents of message to be sent as a response
+			ephemeral : boolean = Makes the response message visible only for the executor if set to true. Learn more:
 			https://discordjs.guide/slash-commands/response-methods.html#ephemeral-responses
 
-		*/
-		await interaction.reply({ content: `You chose: ${choice}!`, ephemeral: true });
+			*/
+			await interaction.reply({ content: `You chose: ${choice}!`, ephemeral: true });
 
-		// Deferred response
-		// https://discordjs.guide/slash-commands/response-methods.html#deferred-responses
-		// await interaction.deferReply({ content: `You chose: ${choice}!`, ephemeral: true });
+			// Deferred response
+			// https://discordjs.guide/slash-commands/response-methods.html#deferred-responses
+			// wait(4000);
+			// await interaction.deferReply({ content: `You chose: ${choice}!`, ephemeral: true });
+		}
 	},
 };

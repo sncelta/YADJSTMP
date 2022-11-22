@@ -1,5 +1,9 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 
+const botPerms = [
+	PermissionFlagsBits.SendMessages,
+	PermissionFlagsBits.ReadMessageHistory,
+];
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -62,18 +66,19 @@ module.exports = {
 				.setRequired(false),
 		),
 	async execute(interaction) {
-		const cmdopts = {
-			'text': interaction.options.getString('text'),
-			'number': interaction.options.getNumber('number'),
-			'boolean': interaction.options.getBoolean('boolean'),
-			'user': interaction.options.getUser('user') === '' ? '' : interaction.options.getUser('user'),
-			'channel': interaction.options.getChannel('channel') === '' ? '' : interaction.options.getChannel('channel'),
-			'integer': interaction.options.getInteger('integer') === 0 ? '' : interaction.options.getInteger('integer'),
-			'role': interaction.options.getRole('role') === '' ? '' : interaction.options.getRole('role'),
-			'mentionable': interaction.options.getMentionable('mentionable') === '' ? '' : interaction.options.getMentionable('mentionable'),
-			'attachment': interaction.options.getAttachment('attachment') === null ? '' : interaction.options.getAttachment('attachment'),
-		};
-
-		interaction.reply(`Text: ${cmdopts['text']}\nNumber: ${cmdopts['number']}\nBoolean: ${cmdopts['boolean']}\nUser: ${cmdopts['boolean']}\nChannel: ${cmdopts['channel']}\nInteger: ${cmdopts['integer']}\nRole: ${cmdopts['role']}\n Mentionable: ${cmdopts['mentionable']}\n Attachment: ${cmdopts['attachment']}`);
+		if (interaction.guild.members.me.permissions.has(botPerms)) {
+			const cmdopts = {
+				'text': interaction.options.getString('text'),
+				'number': interaction.options.getNumber('number'),
+				'boolean': interaction.options.getBoolean('boolean'),
+				'user': interaction.options.getUser('user') === '' ? '' : interaction.options.getUser('user'),
+				'channel': interaction.options.getChannel('channel') === '' ? '' : interaction.options.getChannel('channel'),
+				'integer': interaction.options.getInteger('integer') === 0 ? '' : interaction.options.getInteger('integer'),
+				'role': interaction.options.getRole('role') === '' ? '' : interaction.options.getRole('role'),
+				'mentionable': interaction.options.getMentionable('mentionable') === '' ? '' : interaction.options.getMentionable('mentionable'),
+				'attachment': interaction.options.getAttachment('attachment') === null ? '' : interaction.options.getAttachment('attachment'),
+			};
+			interaction.reply(`Text: ${cmdopts['text']}\nNumber: ${cmdopts['number']}\nBoolean: ${cmdopts['boolean']}\nUser: ${cmdopts['boolean']}\nChannel: ${cmdopts['channel']}\nInteger: ${cmdopts['integer']}\nRole: ${cmdopts['role']}\n Mentionable: ${cmdopts['mentionable']}\n Attachment: ${cmdopts['attachment']}`);
+		}
 	},
 };
