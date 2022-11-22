@@ -1,12 +1,12 @@
 {
-  "name": "thumb",
+  "name": "Template",
   "version": "1.0.0",
   "description": "",
   "main": "init.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sncelta",
+  "author": "author",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.27.0"
