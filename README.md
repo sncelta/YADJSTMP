@@ -1,13 +1,25 @@
 # Discord.js v14 template
-Simple discord bot template with 4 example commands made to make it quicker to get started with making a bot.
+Simple discord.js bot template with 4 example commands.
 
+**In case you're lazy to initialize the whole project by yourself, just like me**.
 
+## Table of contents:
+- [Commands](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#commands)
+- [Getting started](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#getting-started)
+	- [Prerequisites](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#prerequisites)
+	- [Learn JavaScript](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#learn-javascript)
+	- [discord.js Guide](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#discordjs-guide)
+- [Use](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#use)
+	- [Using the bot](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#using-the-bot)
+- [Result](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#result)
+- [Notes](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#notes)
+- [FAQ](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#faq)
 
 ### Commands
-- ```alloptions.js (/options)``` has every option type initialized, and methods to parse eachother.
-- ```choices.js (/choices)``` is a template for command/s, having [choices](https://discordjs.guide/slash-commands/advanced-creation.html#choices) as one of it's options.
+- ```alloptions.js (/options **<string> <number> <boolean> <user> <channel> <integer> <role> <mentionable> <attachment>**)``` has every option type initialized, and methods to parse eachother.
+- ```choices.js (/choices **<choice>**)``` is a template for command/s, having [choices](https://discordjs.guide/slash-commands/advanced-creation.html#choices) as one of it's options.
 - ```morebasic.js (/hello)``` is a simple command that makes the bot say "Hello there" once the command is executed, without any options.
-- ```subcommands.js (/say channel)``` is a example of command with [subcommands](https://discordjs.guide/slash-commands/advanced-creation.html#subcommands). Additionally, it has ```channel``` and ```text``` options, to make the bot send message in a channel, both specified by the executor.
+- ```subcommands.js (/say channel **<channel> <text>**)``` is a example of command with [subcommands](https://discordjs.guide/slash-commands/advanced-creation.html#subcommands). Additionally, it has ```channel``` and ```text``` options, to make the bot send message in a channel, both specified by the executor.
 
 # Getting started
 
@@ -39,6 +51,8 @@ Alternatively, you can use [Git](https://git-scm.com/downloads):
 ```cd``` to the folder with source code (if the folder is not located on C disk, firstly type the drive letter (example. ```D:```), and then ```cd``` to the folder)
 
 Since ```.gitignore``` hides ```node_modules```, you should install it by typing ```npm install``` in the terminal. **MAKE SURE YOU DID STEPS ABOVE**
+
+If simpler — Click "Use this template" => "Create new repository"
 
 Create ```config.json``` file and put the following contents:
 ```
@@ -90,6 +104,10 @@ Successfully reloaded ${data.length} application (/) commands.
 ```
 
 if the commands were deployed succesfully. But you still can get errors while executing the command, rather than while deploying them.
+
+## Notes
+
+Always add ```node_modules``` and ```config.json``` to ```.gitignore```!
 
 # FAQ
 
