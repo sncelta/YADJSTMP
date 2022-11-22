@@ -16,7 +16,7 @@ Simple discord bot template with 4 example commands made to make it quicker to g
 - Code editor (like [Visual Studio Code](https://code.visualstudio.com/download))
 - discord.js — ```npm install discord.js```
 - Bot application in Discord — [Setup bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
-- Basic/intermediate experience and knowledge about JavaScript (resources to get started with JavaScript)[https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#learn-javascript]
+- Basic/intermediate experience and knowledge about JavaScript [resources to get started with JavaScript](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#learn-javascript)
 - [Git](https://git-scm.com/downloads) (optionally)
 
 ### Learn JavaScript:
