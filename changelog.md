@@ -7,4 +7,4 @@
   - Change repository name (discordjs-v14-template => yet-another-discordjs-v14-template)
 - 26/11/2022
   - Tweak README
-  - botPerms is now an variable, separating permissions with a bitwise operator ```OR``` |, rather than an array, due to causing several errors.
+  - ```botPerms``` is now an variable, separating permissions with a bitwise operator ```OR``` |, rather than an array, due to causing several errors.
