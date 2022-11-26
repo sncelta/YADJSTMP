@@ -1,5 +1,7 @@
-# YADJSVTMP
-Simple discord.js bot template:
+# YADJSTMP
+Simple discord bot template written in discord.js v14.
+
+## Includes:
 - 4 example commands;
 - Event handler;
 - Command handler;
@@ -118,7 +120,7 @@ Always add ```node_modules``` and ```config.json``` to ```.gitignore```!
 
 Q: Do I have to credit you?
 
-A: Not necessary. I don't really care. What I want is to make it faster for people to start making their bot without having to initialize other things.
+A: Nope and I don't care. What I want is to make it faster for people to start making their bot without having to initialize other things.
 
 Q: An comment is unclear or has grammar errors!
 
