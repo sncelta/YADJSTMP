@@ -61,7 +61,7 @@ After you are sure you have done everything listed here, download the source cod
 
 Alternatively, you can use [Git](https://git-scm.com/downloads):
 
-```git clone https://github.com/sncelta/yet-another-discordjs-v14-template.git```
+```git clone https://github.com/sncelta/YADJSTMP.git```
 
 ```cd``` to the folder with source code (if the folder is not located on C disk, firstly type the drive letter (example. ```D:```), and then ```cd``` to the folder)
 
