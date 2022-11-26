@@ -3,7 +3,7 @@ YADJSTMP, or Yet Another Discord.js v14 Template is a discord bot **template**, 
 
 YADJSTMP is open for pull requests / contribution, despite being simple & small.
 
-**In case you're lazy to initialize the whole project by yourself, just like me**.
+**In case you're lazy to initialize the whole project by yourself**.
 
 ## Table of contents:
 - [Features](https://github.com/sncelta/YADJSTMP#features)
