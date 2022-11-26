@@ -63,12 +63,24 @@ After you are sure you have done everything listed here, download the source cod
 ### Source control
 Use [Git](https://git-scm.com/downloads):
 
-```git clone https://github.com/sncelta/YADJSTMP.git```
+Click "Use this template" → "Create new repository"
 
+```git clone https://github.com/<your-username>/<repo-name>.git```
+### Contribute
+If you want to just contribute, then simply fork my repository;
+
+Then, clone the forked repository:
+```git clone https://github.com/your-username/YADJSTMP.git```
+
+Whenever you're finished with the changes in your forked repository, commit to the repo and open a pull request.
+
+I recommend Visual Studio Code as a editor.
+
+[Download Visual Studio Code](https://code.visualstudio.com/Download)
+
+[Visual Studio Code: Docs - Source control](https://code.visualstudio.com/docs/sourcecontrol/overview)
 ### node_modules
 Since ```.gitignore``` hides ```node_modules```, you should install it by typing ```npm install``` in the terminal.
-
-If simpler — Click "Use this template" => "Create new repository"
 
 Create ```config.json``` file and put the following contents:
 ```
