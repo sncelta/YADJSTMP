@@ -13,7 +13,7 @@ Simple discord bot template written in discord.js v14.
 - [Install & Usage](https://github.com/sncelta/YADJSTMP/README.md#install)
 	- [Install](https://github.com/sncelta/YADJSTMP/README.md#install)
 		- [node_modules](https://github.com/sncelta/YADJSTMP/README.md#node_modules)
-		- [config.json](https://github.com/sncelta/YADJSTMP/README.md#config.json)
+		- [config.json](https://github.com/sncelta/YADJSTMP/README.md#configjson)
 	- [Usage](https://github.com/sncelta/YADJSTMP/README.md#usage)
 		- [Node.js](https://github.com/sncelta/YADJSTMP/README.md#nodejs)
 - [Starting and using the bot](https://github.com/sncelta/YADJSTMP/README.md#starting-and-using-the-bot)
