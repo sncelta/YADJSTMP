@@ -3,27 +3,31 @@ Simple discord bot template written in discord.js v14.
 
 **In case you're lazy to initialize the whole project by yourself, just like me**.
 
-
+## Table of contents:
+- [Features](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#features)
+- [Commands](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#commands)
+- [Getting started](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#getting-started)
+	- [Prerequisites](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#prerequisites)
+	- [Learn JavaScript](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#learn-javascript)
+	- [discord.js Guide](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#discordjs-guide)
+- [Install & Usage](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#install)
+	- [Install](https://github.com/sncelta/YADJSTMP/edit/main/README.md#install)
+		- [node_modules](https://github.com/sncelta/YADJSTMP/edit/main/README.md#node_modules)
+	- [Usage](https://github.com/sncelta/YADJSTMP/edit/main/README.md#usage)
+		- [Node.js](https://github.com/sncelta/YADJSTMP/edit/main/README.md#nodejs)
+- [Starting and using the bot](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#starting-and-using-the-bot)
+	- [node.js](https://github.com/sncelta/YADJSTMP/edit/main/README.md#nodejs)
+- [Result](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#result)
+	- [Logging in](https://github.com/sncelta/YADJSTMP/edit/main/README.md#logging-in)
+- [Notes](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#notes)
+- [FAQ](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#faq)
+- [Changelog](https://github.com/sncelta/discordjs-v14-template/blob/main/changelog.md)
 
 ## Features
 - Command handler;
 - Event handler;
 - 4 commands;
 - [ESLint](https://eslint.org/)
-
-
-## Table of contents:
-- [Changelog](https://github.com/sncelta/discordjs-v14-template/blob/main/changelog.md)
-- [Commands](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#commands)
-- [Getting started](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#getting-started)
-	- [Prerequisites](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#prerequisites)
-	- [Learn JavaScript](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#learn-javascript)
-	- [discord.js Guide](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#discordjs-guide)
-- [Use](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#use)
-	- [Using the bot](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#using-the-bot)
-- [Result](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#result)
-- [Notes](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#notes)
-- [FAQ](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#faq)
 
 ## Commands
 - ```alloptions.js (/options **<string> <number> <boolean> <user> <channel> <integer> <role> <mentionable> <attachment>**)``` has every option type initialized, and methods to parse eachother.
@@ -51,16 +55,18 @@ Simple discord bot template written in discord.js v14.
 
 Though I left some comments in the code to explain some things, they may be inaccurate or hard to understand, so refer to the docs too.
 
-## Use
+# Install & Usage
+## Install
 After you are sure you have done everything listed here, download the source code and extract it somewhere.
 
 Alternatively, you can use [Git](https://git-scm.com/downloads):
 
-```git clone https://github.com/sncelta/yet-another-discordjs-v14-template.git``` (NO NEED TO CREATE NEW FOLDER FOR THE SOURCE CODE.)
+```git clone https://github.com/sncelta/yet-another-discordjs-v14-template.git```
 
 ```cd``` to the folder with source code (if the folder is not located on C disk, firstly type the drive letter (example. ```D:```), and then ```cd``` to the folder)
 
-Since ```.gitignore``` hides ```node_modules```, you should install it by typing ```npm install``` in the terminal. **MAKE SURE YOU DID STEPS ABOVE**
+### node_modules
+Since ```.gitignore``` hides ```node_modules```, you should install it by typing ```npm install``` in the terminal.
 
 If simpler — Click "Use this template" => "Create new repository"
 
@@ -73,8 +79,9 @@ Create ```config.json``` file and put the following contents:
 }
 ```
 
-## Using the bot
+## Usage
 
+### Node.js
 After you are done, start the bot by typing:
 
 ```node init.js```
@@ -103,6 +110,7 @@ package.json/
 package_lock.json/
 ```
 
+### Logging in
 If there are no errors, you'll see 
 
 ```Ready! Logged in as <bot name>```
@@ -110,7 +118,7 @@ If there are no errors, you'll see
 after starting the bot, and
 
 ```Started refreshing <amount of commands> application (/) commands.
-Successfully reloaded ${data.length} application (/) commands.
+Successfully reloaded {amount of commands} application (/) commands.
 ```
 
 if the commands were deployed succesfully. But you still can get errors while executing the command, rather than while deploying them.
