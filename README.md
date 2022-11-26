@@ -4,11 +4,11 @@ Simple discord bot template written in discord.js v14.
 **In case you're lazy to initialize the whole project by yourself, just like me**.
 
 ## Table of contents:
-- [Features](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#features)
-- [Commands](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#commands)
-- [Getting started](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#getting-started)
-	- [Prerequisites](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#prerequisites)
-	- [Learn JavaScript](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#learn-javascript)
+- [Features](https://github.com/sncelta/discordjs-v14-template/README.md#features)
+- [Commands](https://github.com/sncelta/discordjs-v14-template/README.md#commands)
+- [Getting started](https://github.com/sncelta/discordjs-v14-template/README.md#getting-started)
+	- [Prerequisites](https://github.com/sncelta/discordjs-v14-template/README.md#prerequisites)
+	- [Learn JavaScript](https://github.com/sncelta/discordjs-v14-template/README.md#learn-javascript)
 	- [discord.js Guide](https://github.com/sncelta/discordjs-v14-template/README.md#discordjs-guide)
 - [Install & Usage](https://github.com/sncelta/discordjs-v14-template/README.md#install)
 	- [Install](https://github.com/sncelta/YADJSTMP/README.md#install)
