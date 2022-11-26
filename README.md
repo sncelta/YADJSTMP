@@ -1,4 +1,4 @@
-# Discord.js v14 template
+# YADJSVTMP
 Simple discord.js bot template:
 - 4 example commands;
 - Event handler;
@@ -28,7 +28,7 @@ Simple discord.js bot template:
 
 # Getting started
 
-## Prerequisites
+### Prerequisites
 - [Node.js](https://nodejs.org/en/download/)
 - Code editor (like [Visual Studio Code](https://code.visualstudio.com/download))
 - discord.js — ```npm install discord.js```
@@ -51,7 +51,7 @@ After you are sure you have done everything listed here, download the source cod
 
 Alternatively, you can use [Git](https://git-scm.com/downloads):
 
-```git clone https://github.com/sncelta/discordjs-v14-template.git``` (NO NEED TO CREATE NEW FOLDER FOR THE SOURCE CODE.)
+```git clone https://github.com/sncelta/yet-another-discordjs-v14-template.git``` (NO NEED TO CREATE NEW FOLDER FOR THE SOURCE CODE.)
 
 ```cd``` to the folder with source code (if the folder is not located on C disk, firstly type the drive letter (example. ```D:```), and then ```cd``` to the folder)
 
