@@ -13,6 +13,7 @@ Simple discord bot template written in discord.js v14.
 - [Install & Usage](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#install)
 	- [Install](https://github.com/sncelta/YADJSTMP/edit/main/README.md#install)
 		- [node_modules](https://github.com/sncelta/YADJSTMP/edit/main/README.md#node_modules)
+		- [config.json](https://github.com/sncelta/YADJSTMP/edit/main/README.md#config-json)
 	- [Usage](https://github.com/sncelta/YADJSTMP/edit/main/README.md#usage)
 		- [Node.js](https://github.com/sncelta/YADJSTMP/edit/main/README.md#nodejs)
 - [Starting and using the bot](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#starting-and-using-the-bot)
@@ -81,7 +82,7 @@ I recommend Visual Studio Code as a editor.
 [Visual Studio Code: Docs - Source control](https://code.visualstudio.com/docs/sourcecontrol/overview)
 ### node_modules
 Since ```.gitignore``` hides ```node_modules```, you should install it by typing ```npm install``` in the terminal.
-
+### config.json
 Create ```config.json``` file and put the following contents:
 ```
 {
