@@ -1,13 +1,16 @@
 # YADJSTMP
 Simple discord bot template written in discord.js v14.
 
-## Includes:
-- 4 example commands;
-- Event handler;
+**In case you're lazy to initialize the whole project by yourself, just like me**.
+
+
+
+## Features
 - Command handler;
+- Event handler;
+- 4 commands;
 - [ESLint](https://eslint.org/)
 
-**In case you're lazy to initialize the whole project by yourself, just like me**.
 
 ## Table of contents:
 - [Changelog](https://github.com/sncelta/discordjs-v14-template/blob/main/changelog.md)
@@ -22,7 +25,7 @@ Simple discord bot template written in discord.js v14.
 - [Notes](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#notes)
 - [FAQ](https://github.com/sncelta/discordjs-v14-template/edit/main/README.md#faq)
 
-### Commands
+## Commands
 - ```alloptions.js (/options **<string> <number> <boolean> <user> <channel> <integer> <role> <mentionable> <attachment>**)``` has every option type initialized, and methods to parse eachother.
 - ```choices.js (/choices **<choice>**)``` is a template for command/s, having [choices](https://discordjs.guide/slash-commands/advanced-creation.html#choices) as one of it's options.
 - ```morebasic.js (/hello)``` is a simple command that makes the bot say "Hello there" once the command is executed, without any options.
