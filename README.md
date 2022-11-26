@@ -24,16 +24,18 @@ Simple discord bot template written in discord.js v14.
 - [Changelog](https://github.com/sncelta/discordjs-v14-template/blob/main/changelog.md)
 
 ## Features
+- JavaScript;
+- [Node.js](https://nodejs.org/)
 - Command handler;
 - Event handler;
 - 4 commands;
 - [ESLint](https://eslint.org/)
 
 ## Commands
-- ```alloptions.js (/options **<string> <number> <boolean> <user> <channel> <integer> <role> <mentionable> <attachment>**)``` has every option type initialized, and methods to parse eachother.
-- ```choices.js (/choices **<choice>**)``` is a template for command/s, having [choices](https://discordjs.guide/slash-commands/advanced-creation.html#choices) as one of it's options.
-- ```morebasic.js (/hello)``` is a simple command that makes the bot say "Hello there" once the command is executed, without any options.
-- ```subcommands.js (/say channel **<channel> <text>**)``` is a example of command with [subcommands](https://discordjs.guide/slash-commands/advanced-creation.html#subcommands). Additionally, it has ```channel``` and ```text``` options, to make the bot send message in a channel, both specified by the executor.
+1. [alloptions.js](https://github.com/sncelta/YADJSTMP/blob/main/commands/alloptions.js) ```/options <string> <number> <boolean> <user> <channel> <integer> <role> <mentionable> <attachment>``` has every option type initialized, and methods to parse eachother.
+2. [choices.js](https://github.com/sncelta/YADJSTMP/blob/main/commands/choices.js) ```/choices <choice>``` is a template for command/s, having [choices](https://discordjs.guide/slash-commands/advanced-creation.html#choices) as one of it's options.
+3. [morebasic.js](https://github.com/sncelta/YADJSTMP/blob/main/commands/morebasic.js) ```(/hello)``` is a simple command that makes the bot say "Hello there" once the command is executed, without any options.
+4. [subcommands.js](https://github.com/sncelta/YADJSTMP/blob/main/commands/subcommands.js) ```(/say channel <channel> <text>)``` is a example of command with [subcommands](https://discordjs.guide/slash-commands/advanced-creation.html#subcommands). Additionally, it has ```channel``` and ```text``` options, to make the bot send message in a channel, both specified by the executor.
 
 # Getting started
 
