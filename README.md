@@ -1,5 +1,7 @@
 # YADJSTMP
-Simple discord bot template written in discord.js v14.
+YADJSTMP, or Yet Another Discord.js v14 Template is a discord bot **template**, written in JavaScript and discord.js (v14) library.
+
+YADJSTMP is open for pull requests / contribution, despite being simple & small.
 
 **In case you're lazy to initialize the whole project by yourself, just like me**.
 
