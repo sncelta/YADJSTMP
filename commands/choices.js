@@ -2,10 +2,9 @@ const { SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 
 // const wait = require('node:timers/promises').setTimeout;
 
-const botPerms = [
-	PermissionFlagsBits.SendMessages,
-	PermissionFlagsBits.ReadMessageHistory,
-];
+const botPerms =
+	PermissionFlagsBits.SendMessages |
+	PermissionFlagsBits.ReadMessageHistory;
 
 module.exports = {
 	data: new SlashCommandBuilder()
