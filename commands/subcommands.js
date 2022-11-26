@@ -1,20 +1,19 @@
 /* eslint-disable indent */
 /* eslint-disable quotes */
 /* eslint-disable no-mixed-spaces-and-tabs */
-const { SlashCommandBuilder, ChannelType, PermissionFlagsBits, PermissionsBitField } = require('discord.js');
+const { SlashCommandBuilder, ChannelType, PermissionFlagsBits } = require('discord.js');
 
 // Make a slash command with a subcommand that sends message to a text channel, both specifed by the user.
 
-const botPerms = [
-    PermissionsBitField.Flags.ManageMessages,
-];
+const botPerms =
+    PermissionFlagsBits.ManageMessages;
 
 module.exports = {
     data: new SlashCommandBuilder()
     .setName('say')
     .setDescription('Make bot say anything the executor wants')
-    // Make the command be able to executed only if the executor has "Manage Messages" permisson.
-    .setDefaultMemberPermissions(PermissionFlagsBits.ManageMessages)
+    // Make the command be able to executed only if the executor has botPerms permisson/s.
+    .setDefaultMemberPermissions(botPerms)
     .addSubcommand(subcommand =>
         subcommand
             .setName('channel')

@@ -1,13 +1,12 @@
 const { SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 
-const botPerms = [
-	PermissionFlagsBits.SendMessages,
-	PermissionFlagsBits.ReadMessageHistory,
-];
+const botPerms =
+	PermissionFlagsBits.SendMessages |
+	PermissionFlagsBits.ReadMessageHistory;
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		// Command name. Example: /choices
+		// Command name. Example: /hello
 		.setName('hello')
 		// Command's description. Shows up in commands menu once / is typed.
 		.setDescription('Hello!'),
