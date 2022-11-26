@@ -60,12 +60,10 @@ Though I left some comments in the code to explain some things, they may be inac
 # Install & Usage
 ## Install
 After you are sure you have done everything listed here, download the source code and extract it somewhere.
-
-Alternatively, you can use [Git](https://git-scm.com/downloads):
+### Source control
+Use [Git](https://git-scm.com/downloads):
 
 ```git clone https://github.com/sncelta/YADJSTMP.git```
-
-```cd``` to the folder with source code (if the folder is not located on C disk, firstly type the drive letter (example. ```D:```), and then ```cd``` to the folder)
 
 ### node_modules
 Since ```.gitignore``` hides ```node_modules```, you should install it by typing ```npm install``` in the terminal.
