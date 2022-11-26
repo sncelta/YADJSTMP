@@ -5,21 +5,21 @@ Simple discord bot template written in discord.js v14.
 
 ## Table of contents:
 - [Features](https://github.com/sncelta/YADJSTMP#features)
-- [Commands](https://github.com/sncelta/YADJSTMP/README.md#commands)
-- [Getting started](https://github.com/sncelta/YADJSTMP/README.md#getting-started)
-	- [Prerequisites](https://github.com/sncelta/YADJSTMP/README.md#prerequisites)
-	- [Learn JavaScript](https://github.com/sncelta/YADJSTMP/README.md#learn-javascript)
-	- [discord.js Guide](https://github.com/sncelta/YADJSTMP/README.md#discordjs-guide)
-- [Install & Usage](https://github.com/sncelta/YADJSTMP/README.md#install)
-	- [Install](https://github.com/sncelta/YADJSTMP/README.md#install)
-		- [node_modules](https://github.com/sncelta/YADJSTMP/README.md#node_modules)
-		- [config.json](https://github.com/sncelta/YADJSTMP/README.md#configjson)
-	- [Usage](https://github.com/sncelta/YADJSTMP/README.md#usage)
-		- [Node.js](https://github.com/sncelta/YADJSTMP/README.md#Nodejs)
-- [Result](https://github.com/sncelta/YADJSTMP/README.md#result)
-	- [Logging in](https://github.com/sncelta/YADJSTMP/README.md#logging-in)
-- [Notes](https://github.com/sncelta/YADJSTMP/README.md#notes)
-- [FAQ](https://github.com/sncelta/YADJSTMP/README.md#faq)
+- [Commands](https://github.com/sncelta/YADJSTMP#commands)
+- [Getting started](https://github.com/sncelta/YADJSTMP#getting-started)
+	- [Prerequisites](https://github.com/sncelta/YADJSTMP#prerequisites)
+	- [Learn JavaScript](https://github.com/sncelta/YADJSTMP#learn-javascript)
+	- [discord.js Guide](https://github.com/sncelta/YADJSTMP#discordjs-guide)
+- [Install & Usage](https://github.com/sncelta/YADJSTMP#install--usage)
+	- [Install](https://github.com/sncelta/YADJSTMP#install)
+		- [node_modules](https://github.com/sncelta/YADJSTMP#node_modules)
+		- [config.json](https://github.com/sncelta/YADJSTMP#configjson)
+	- [Usage](https://github.com/sncelta/YADJSTMP#usage)
+		- [Node.js](https://github.com/sncelta/YADJSTMP#nodejs)
+- [Result](https://github.com/sncelta/YADJSTMP#result)
+	- [Logging in](https://github.com/sncelta/YADJSTMP#logging-in)
+- [Notes](https://github.com/sncelta/YADJSTMP#notes)
+- [FAQ](https://github.com/sncelta/YADJSTMP#faq)
 - [Changelog](https://github.com/sncelta/YADJSTMP/blob/main/changelog.md)
 
 ## Features
@@ -43,7 +43,7 @@ Simple discord bot template written in discord.js v14.
 - Code editor (like [Visual Studio Code](https://code.visualstudio.com/download))
 - discord.js — ```npm install discord.js```
 - Bot application in Discord — [Setup bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
-- Basic/intermediate experience and knowledge about JavaScript [resources to get started with JavaScript](https://github.com/sncelta/YADJSTMP/edit/main/README.md#learn-javascript)
+- Basic/intermediate experience and knowledge about JavaScript [resources to get started with JavaScript](https://github.com/sncelta/YADJSTMP/edit/main/#learn-javascript)
 - [Git](https://git-scm.com/downloads) (optionally)
 
 ### Learn JavaScript:
